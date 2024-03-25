@@ -1,0 +1,22 @@
+{
+  "context": "client",
+  "identifier": "com.pa.quitch.tfcl-dev",
+  "display_name": "Time From Commander Landing DEV",
+  "description": "Restarts the in-game clock display from 0 when the Commander lands.",
+  "author": "Quitch",
+  "version": "1.0.0",
+  "build": "116982",
+  "date": "2024-03-25",
+  "signature": " ",
+  "forum": "",
+  "icon": "",
+  "category": ["ui", "classic", "titans"],
+  "priority": 100,
+  "scenes": {
+    "live_game": ["coui://ui/mods/com.pa.quitch.tfcl/live_game/game_state.js"],
+    "live_game_options_bar": [
+      "coui://ui/mods/com.pa.quitch.tfcl/live_game_options_bar/timer.js"
+    ]
+  },
+  "github": ""
+}
