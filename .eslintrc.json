@@ -15,7 +15,9 @@
     "_": "readonly",
     "loc": "readonly",
     "handlers": "readonly",
-    "api": "readonly"
+    "api": "readonly",
+    "ko": "readonly",
+    "UberUtility": "readonly"
   },
   "plugins": ["lodash"],
   "rules": {

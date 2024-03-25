@@ -16,6 +16,9 @@
     "live_game": ["coui://ui/mods/com.pa.quitch.tfcl/live_game/game_state.js"],
     "live_game_options_bar": [
       "coui://ui/mods/com.pa.quitch.tfcl/live_game_options_bar/timer.js"
+    ],
+    "live_game_time_bar": [
+      "coui://ui/mods/com.pa.quitch.tfcl/live_game_time_bar/timer.js"
     ]
   },
   "github": ""
