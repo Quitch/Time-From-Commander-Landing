@@ -2,7 +2,7 @@
   "context": "client",
   "identifier": "com.pa.quitch.tfcl-dev",
   "display_name": "Time From Commander Landing DEV",
-  "description": "Restarts the in-game clock display from 0 when the Commander lands.",
+  "description": "Restarts the in-game clock and chronocam display from 0 when the Commander lands.",
   "author": "Quitch",
   "version": "1.0.0",
   "build": "116982",
