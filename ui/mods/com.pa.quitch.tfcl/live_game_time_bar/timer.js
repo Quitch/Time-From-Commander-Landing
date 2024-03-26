@@ -1,11 +1,11 @@
-var timeFromCommanderLandingLoaded;
+var adjustChronoCamTimeLoaded;
 
-function timeFromCommanderLanding() {
-  if (timeFromCommanderLandingLoaded) {
+function adjustChronoCamTime() {
+  if (adjustChronoCamTimeLoaded) {
     return;
   }
 
-  timeFromCommanderLandingLoaded = true;
+  adjustChronoCamTimeLoaded = true;
 
   try {
     var simStartToLandingTimeDifference = 0.0;
@@ -32,4 +32,4 @@ function timeFromCommanderLanding() {
     console.error(JSON.stringify(e));
   }
 }
-timeFromCommanderLanding();
+adjustChronoCamTime();

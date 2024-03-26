@@ -1,6 +1,6 @@
 var timeFromCommanderLandingLoaded;
 
-function monitorGameState() {
+function timeFromCommanderLanding() {
   if (timeFromCommanderLandingLoaded) {
     return;
   }
@@ -33,4 +33,4 @@ function monitorGameState() {
     console.error(JSON.stringify(e));
   }
 }
-monitorGameState();
+timeFromCommanderLanding();
