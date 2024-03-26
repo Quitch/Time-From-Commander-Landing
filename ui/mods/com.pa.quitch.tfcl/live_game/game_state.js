@@ -17,11 +17,15 @@ function monitorGameState() {
         src: "coui://ui/main/game/live_game/live_game_time_bar.html",
       }).id;
 
+      var previousMode = model.serverMode();
+
       model.serverMode.subscribe(function () {
-        if (model.serverMode() === "playing") {
+        var currentMode = model.serverMode();
+        if (currentMode === "playing" && previousMode === "landing") {
           api.Panel.message(liveGameOptionsBarPanelId, "gameStarted");
           api.Panel.message(liveGameTimeBarPanelId, "gameStarted");
         }
+        previousMode = currentMode;
       });
     });
   } catch (e) {
