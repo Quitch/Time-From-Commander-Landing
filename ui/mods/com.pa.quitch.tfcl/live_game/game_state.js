@@ -17,8 +17,8 @@ function monitorGameState() {
         src: "coui://ui/main/game/live_game/live_game_time_bar.html",
       }).id;
 
-      model.mode.subscribe(function () {
-        if (model.mode() === "playing") {
+      model.serverMode.subscribe(function () {
+        if (model.serverMode() === "playing") {
           api.Panel.message(liveGameOptionsBarPanelId, "gameStarted");
           api.Panel.message(liveGameTimeBarPanelId, "gameStarted");
         }
