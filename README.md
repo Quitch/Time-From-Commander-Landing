@@ -1,6 +1,6 @@
 # Time From Commander Landing
 
-Restarts the in-game clock display from 0 when the Commander lands.
+Restarts the in-game clock and chronocam display from 0 when the Commander lands.
 
 ## Installation
 
