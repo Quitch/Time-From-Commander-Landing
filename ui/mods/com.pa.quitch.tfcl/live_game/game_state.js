@@ -20,7 +20,7 @@ function timeFromCommanderLanding() {
       var previousMode = model.serverMode();
 
       model.serverMode.subscribe(function () {
-        var currentMode = model.serverMode();
+        const currentMode = model.serverMode();
         if (currentMode === "playing" && previousMode === "landing") {
           api.Panel.message(liveGameOptionsBarPanelId, "gameStarted");
           api.Panel.message(liveGameTimeBarPanelId, "gameStarted");
